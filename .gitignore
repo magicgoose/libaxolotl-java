@@ -5,3 +5,7 @@ build
 .idea
 gradle.properties
 local.properties
+libaxolotl-cli
+libaxolotl-cli.make
+Makefile
+jni/obj
