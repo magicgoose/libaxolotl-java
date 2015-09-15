@@ -1,7 +1,7 @@
 #include "sc.h"
-#include "crypto_int64.h"
-#include "crypto_uint32.h"
-#include "crypto_uint64.h"
+#include "nacl_includes/crypto_int64.h"
+#include "nacl_includes/crypto_uint32.h"
+#include "nacl_includes/crypto_uint64.h"
 
 static crypto_uint64 load_3(const unsigned char *in)
 {

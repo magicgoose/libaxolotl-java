@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include "crypto_hash_sha512.h"
-#include "curve_sigs.h"
+#include "../additions/crypto_hash_sha512.h"
+#include "../additions/curve_sigs.h"
 
 #define MSG_LEN 200
 
@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
     printf("SHA512 good #2\n");
   else
     printf("SHA512 bad #2\n");
-  
+
   /* Signature test */
   curve25519_keygen(pubkey, privkey);
 
