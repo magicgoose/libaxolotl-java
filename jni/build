@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+premake4 --cc=gcc gmake
+make
